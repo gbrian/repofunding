@@ -1,4 +1,6 @@
 # repofunding
+
+[![Join the chat at https://gitter.im/repofunding_support/Lobby](https://badges.gitter.im/repofunding_support/Lobby.svg)](https://gitter.im/repofunding_support/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 *The crowdfunding platform for your open source repositories*
 
 Enable crowdfunding and get help from the community to maintain your open source repositories.
