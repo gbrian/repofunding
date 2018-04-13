@@ -3,7 +3,7 @@
 
 Enable crowdfunding to support your open source projects and get help from the community.
 
-:smile: **Join the repofunding community now on** [![Join the chat at https://gitter.im/repofunding_support/Lobby](https://badges.gitter.im/repofunding_support/Lobby.svg)](https://gitter.im/repofunding_support/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+:smile: **Join the repofunding community now on** [![Join the chat at https://gitter.im/repofunding/Lobby](https://badges.gitter.im/repofunding_support/Lobby.svg)](https://gitter.im/repofunding_support/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Crowdfunding an open source proyect
 Maintaining an open source project has a cost. 
