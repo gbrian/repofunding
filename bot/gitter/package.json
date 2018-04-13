@@ -1,0 +1,28 @@
+{
+  "name": "repofunding_gitter",
+  "version": "1.0.0",
+  "description": "repofunding gitter bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbrian/repofunding.git"
+  },
+  "keywords": [
+    "bot",
+    "gitter",
+    "github",
+    "repofunding"
+  ],
+  "author": "repofunding",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbrian/repofunding/issues"
+  },
+  "homepage": "https://github.com/gbrian/repofunding#readme",
+  "dependencies": {
+    "node-gitter": "^2.1.0"
+  }
+}
