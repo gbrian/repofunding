@@ -1,22 +1,53 @@
 # repofunding
-*The Blockchain-Crowdfunding for your repositories*
+*The crowdfunding platform for your open source repositories*
 
-Enable crowdfunding on your repositories with repofunding and convert your issues in assets.
+Enable crowdfunding and get help from the community to maintain your open source repositories.
 
 ## Crowdfunding an open source proyect
-Maintaining an open source project is not free. It requires a lot of dedication and coding hours. It is amazing when you start receiving attention from other developers, the community or companies trying your project. They find bugs or suggest new features that you have to  manage.
+Maintaining an open source project has a cost. 
+It requires a lot of dedication and coding hours that you do because your passion. 
+:heart_eyes: It is amazing when you start receiving attention from other developers, the community or companies usinig your project. 
+Then they find bugs or start suggesting new cool features that enjoy developing.
+
+With repofunding you can ask the community for the support needed to keep your projects updated and continue improving them.
 
 ## Issues as assets
-With repofunding you can estimate the cost of any issue and request crowdfunding for it. Anyone can then pay partial or complete to get it done.
+Now you can estimate the cost of any issue and request crowdfunding for it so you don't have to bear with all the cost.
+It is easy, anyone can collaborate with 1, 5, 10, ... and help you to get it done :clap:
 
-## Safe for the funders
-No charge is done until the whole amount for an asset is reached, then a payment block is executed on all funders with a timeout, after this time is automatcally released if the asset was not delivered.
+### How I can request crwodfunding for an issue
+You can ask repofunding to support your issue by `@repofunding support`
 
-## Reputation
-There is only one way to get funders: reputation. Be honest, deliver on time and earn badges from your funders. Funders trust funders.
+@repofunding will post
+[new issue](templates/new_issue.md)
+
+# Safe for the funders
+You support it and you decide how much and when. 
+Post your support by clicking on any of the available options on the issue:
+
+[![Support this asset](https://img.shields.io/badge/support-$1-lightgray.svg)](http://google.com.au/)
+[![Support this asset](https://img.shields.io/badge/support-$5-blue.svg)](http://google.com.au/) 
+[![Support this asset](https://img.shields.io/badge/support-$10-yellow.svg)](http://google.com.au/) 
+[![Support this asset](https://img.shields.io/badge/support-$20-green.svg)](http://google.com.au/) 
+
+Super easy, don't you? No charges or costs will be applied. 
+With this simple action you tell the maintainer and all the community your supporting this issue!
+
+## Do I have to pay if the issue is not fixed?
+Not at all :wink:
+
+## When I will be charged?
+Once the issue has an accepted pull request you will be requested to confirm your support.
+Now is time for the 
+
+# Reputation
+There is only one way to get funders: reputation. Be honest, deliver on time and earn reputation points that will encourage the community to trust you.
+
+### Funders
+Please confirm your support and answer the surveys at the end of the issues to help repofunding know about the project maintainer. 
 
 ### Voting
-Repo managers and funders are scored by the community  
+Repo managers and funders are scored by the community  :+1: :-1:
 
 
 
