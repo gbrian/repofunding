@@ -1,9 +1,9 @@
-# repofunding
-
-[![Join the chat at https://gitter.im/repofunding_support/Lobby](https://badges.gitter.im/repofunding_support/Lobby.svg)](https://gitter.im/repofunding_support/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Welcome to repofunding
 *The crowdfunding platform for your open source repositories*
 
-Enable crowdfunding and get help from the community to maintain your open source repositories.
+Enable crowdfunding to support your open source projects and get help from the community.
+
+:smile: **Join the repofunding community now on** [![Join the chat at https://gitter.im/repofunding_support/Lobby](https://badges.gitter.im/repofunding_support/Lobby.svg)](https://gitter.im/repofunding_support/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Crowdfunding an open source proyect
 Maintaining an open source project has a cost. 
@@ -18,7 +18,7 @@ Now you can estimate the cost of any issue and request crowdfunding for it so yo
 It is easy, anyone can collaborate with 1, 5, 10, ... and help you to get it done :clap:
 
 ### How I can request crwodfunding for an issue
-You can ask repofunding to support your issue by `@repofunding support`
+You can ask repofunding to support your issue by just adding `@repofunding support` to your comments.
 
 @repofunding will post
 [new issue](templates/new_issue.md)
