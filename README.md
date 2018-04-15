@@ -42,7 +42,7 @@ It is so easy and anyone can collaborate with 1, 5, 10, ... and get it done :cla
 ### Voting
 Repository managers and funders are scored by the community throught the surveys. React with :+1: :-1:
 
-![Response](assets/issue_fixed.png)
+![Response](assets/issue_fixed.PNG)
 
 
 
