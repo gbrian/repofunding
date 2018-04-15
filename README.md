@@ -44,7 +44,10 @@ Repository managers and funders are scored by the community throught the surveys
 
 ![Response](assets/issue_fixed.PNG)
 
+# Social media
+Your support requests will be published on social media to notify funders
 
+![Response](assets/twit_issue.PNG)
 
  
 

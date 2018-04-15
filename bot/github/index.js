@@ -77,7 +77,7 @@ Repofunding.prototype.markNotifications = function(){
 Repofunding.prototype.processNotifications = function(notifications){
   this.log(notifications.length + " notifications found")
   notifications.map(n => this.processNotification(n));
-  //this.markNotifications();
+  this.markNotifications();
 }
 // Listen to notifications
 // TODO: Move to webhooks :(
@@ -106,6 +106,7 @@ Repofunding.prototype.findComments = function(user, repo, issueId, fid){
   var def = q.defer();
   this.gh.getIssues(user, repo)
     .listIssueComments(issueId, (err, comments) => {
+      comments.map(c => c.isFromRepofunding = c.user.login === "repofunding");
       return err ? def.reject(err): def.resolve(comments);
     });
   return def.promise
@@ -116,7 +117,7 @@ Repofunding.prototype.findComments = function(user, repo, issueId, fid){
 Repofunding.prototype.digestComment = function(comment){
   var tags = /[\#]{2,} tags\:(.*)$/.exec(comment.body);
   comment.keywords = tags && comment.user.login === "repofunding" ?
-      tags[1].split(",").map(t => t.replace(/\_/mg, "")):[];
+      tags[1].split(",").map(t => t.replace(/\_/mg, "").trim()):[];
   return comment;
 }
 
@@ -173,9 +174,9 @@ Repofunding.prototype.handleMessage = function(user, repo, issue, commentId){
       issue.meta.repofundingComments.length){
     this.deleteIssueComments(user, repo, issueId,
         c => c.user.login === "repofunding");
-  }else if(lmsg.indexOf("@repofunding support") !== -1){
-    if(!issue.meta.supporting.length
-      && !issue.meta.crowdfunding.length){
+  }else if(!comment.isFromRepofunding &&
+    lmsg.indexOf("@repofunding support") !== -1){
+    if(!issue.meta.supporting.length){
       this.supportOrSuggestSupporting(user, repo, issue, comment);
     }
   }
@@ -211,7 +212,9 @@ Repofunding.prototype.getPaypalMe = function(user, repo){
 
 Repofunding.prototype.supportOrSuggestSupporting = function(user, repo, issue, comment){
   var isOwner = comment.author_association === "OWNER";
-  var isRefOrHelp = /@repofunding\s+support\s+([0-9]*)/i.exec()
+  var isRefOrHelp = /@repofunding\s+support\s+(.*)/i.exec(comment.body);
+  if(isOwner && !isRefOrHelp && issue.meta.crowdfunding)
+    return;
   var tpl = isOwner ?
                 !isRefOrHelp ? "how_to_support.md": "new_issue.md":
                 "issue_user_references_repofunding.md";
