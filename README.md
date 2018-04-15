@@ -34,7 +34,7 @@ It is so easy and anyone can collaborate with 1, 5, 10, ... and get it done :cla
 ![Request](assets/support_request.png)
 
 **REPOFUNDING**:
-![Response](assets/support_response.png)
+![Response](assets/support_response.PNG)
 
 # Reputation
 :point_up: The only one way to get funders: **reputation**. Be honest, deliver on time and build a reputation that will encourage the community to support you and your projects.
