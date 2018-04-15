@@ -8,3 +8,5 @@ Continue supporting this repository! www.repofunfing.com
 How was supporting this issue?
  * [Fine! :+1:](https://www.repofunding.com/vote/issue/survey/1)
  * [Not good! :pensive:](https://www.repofunding.com/vote/issue/survey/0)
+
+#### tags: _closed_
