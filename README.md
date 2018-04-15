@@ -5,6 +5,8 @@ Enable crowdfunding to support your open source projects and get help from the c
 
 :smile: **Join the repofunding community now on** [![Join the chat at https://gitter.im/repofunding/Lobby](https://badges.gitter.im/repofunding/Lobby.svg)](https://gitter.im/repofunding/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+:love_letter: **Stay tuned with latest anouncements [![Saty tuned](https://img.shields.io/badge/repofunding%20news-subscribe-blue.svg)](https://github.com/gbrian/repofunding/issues/5)**
+
 ## Crowdfunding an open source proyect
 Maintaining an open source project has a cost. 
 It requires a lot of dedication and coding hours that you do because your passion. 
