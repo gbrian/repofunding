@@ -102,10 +102,6 @@ Repofunding.prototype.commentIssue = function(user, repo, id, comment){
     .catch(console.error);
 }
 
-Repofunding.prototype.supportIssue =  function(user, repo, id){
-  this.log("New supporting request for issue " + id);
-}
-
 Repofunding.prototype.findComments = function(user, repo, issueId, fid){
   var def = q.defer();
   this.gh.getIssues(user, repo)
@@ -177,12 +173,11 @@ Repofunding.prototype.handleMessage = function(user, repo, issue, commentId){
       issue.meta.repofundingComments.length){
     this.deleteIssueComments(user, repo, issueId,
         c => c.user.login === "repofunding");
-  }
-  if(lmsg.indexOf("@repofunding support") !== -1){
-    this.supportIssue(user, repo, issueId);
-  }
-  if(!issue.meta.repofundingComments.length){
-    this.supportOrSuggestSupporting(user, repo, issue, comment);
+  }else if(lmsg.indexOf("@repofunding support") !== -1){
+    if(!issue.meta.supporting.length
+      && !issue.meta.crowdfunding.length){
+      this.supportOrSuggestSupporting(user, repo, issue, comment);
+    }
   }
   this.reactToIssueComment(user, repo, issueId, comment);
 };
