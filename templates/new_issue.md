@@ -9,4 +9,4 @@
  -None, be the first!_
  @gbrian, @viaji, ...
 
-#### tags: _crowdfunding_, _new issue_
+#### tags: _crowdfunding_
