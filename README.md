@@ -31,19 +31,18 @@ Now you can estimate the cost of any issue and request crowdfunding for it so yo
 It is so easy and anyone can collaborate with 1, 5, 10, ... and get it done :clap:
 
 **YOU:**
-[PIC HERE]
+![Request](assets/support_request.png)
 
 **REPOFUNDING**:
-[PIC HERE]
+![Response](assets/support_response.png)
 
 # Reputation
-There is only one way to get funders: reputation. Be honest, deliver on time and earn reputation points that will encourage the community to trust you.
-
-### Funders
-Please confirm your support and answer the surveys at the end of the issues to help repofunding know about the project maintainer. 
+:point_up: The only one way to get funders: **reputation**. Be honest, deliver on time and build a reputation that will encourage the community to support you and your projects.
 
 ### Voting
-Repo managers and funders are scored by the community  :+1: :-1:
+Repository managers and funders are scored by the community throught the surveys. React with :+1: :-1:
+
+![Response](assets/issue_fixed.png)
 
 
 

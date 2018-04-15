@@ -1,0 +1,24 @@
+{
+  "name": "repofunding_github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbrian/repofunding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbrian/repofunding/issues"
+  },
+  "homepage": "https://github.com/gbrian/repofunding#readme",
+  "dependencies": {
+    "github-api": "^3.0.0",
+    "q": "^1.5.1",
+    "request": "^2.85.0"
+  }
+}
