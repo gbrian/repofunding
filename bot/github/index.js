@@ -191,8 +191,9 @@ Repofunding.prototype.applyTemplateValues = function(body, data){
   return body.replace(/%([^%]*)%/mg, function(text, match){
     try{
       return eval("data." + match);
-    }catch{}
-    return  "";
+    }catch(e){
+      return  "";
+    }
   });
 }
 
@@ -224,7 +225,7 @@ Repofunding.prototype.supportOrSuggestSupporting = function(user, repo, issue, c
           repo: repo,
           issue:issue,
           comment: comment,
-          paypal: available.name
+          paypalme_id: isRefOrHelp ? isRefOrHelp[1]: null
       };
     this.processTemplate("https://raw.githubusercontent.com/gbrian/repofunding/master/templates/" + tpl, data)
       .then(commentBody => this.commentIssue(user, repo, issue.number, commentBody));
